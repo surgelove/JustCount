@@ -11,7 +11,7 @@ final class CounterViewModel {
     }
 
     func decrement() {
-        count -= 1
+        count = max(0, count - 1)
     }
 
     func reset() {
@@ -19,6 +19,7 @@ final class CounterViewModel {
     }
 
     func saveCurrentCount() {
+        guard count != 0 else { return }
         savedCounts.append(count)
     }
 }

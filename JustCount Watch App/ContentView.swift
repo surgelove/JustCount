@@ -17,7 +17,8 @@ struct ContentView: View {
                             .font(.system(size: countSize, weight: .bold))
                             .contentTransition(.numericText())
                             .animation(.snappy, value: viewModel.count)
-                            .frame(maxWidth: .infinity)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 12)
 
                         // Row 1: − / +
                         HStack(spacing: 0) {
