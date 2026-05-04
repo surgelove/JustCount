@@ -18,9 +18,11 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>WKApplication</key>
+	<true/>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>com.justcount.app</string>
-	<key>WKApplication</key>
+	<key>WKRunsIndependentlyOfCompanionApp</key>
 	<true/>
 </dict>
 </plist>
