@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'JustCount' in project 'JustCount'
+➜ Explicit dependency on target 'JustCount Watch App' in project 'JustCount'
+Target 'JustCount Watch App' in project 'JustCount' (no dependencies)

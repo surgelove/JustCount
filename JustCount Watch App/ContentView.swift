@@ -23,12 +23,43 @@ struct ContentView: View {
                         // Row 1: − / +
                         HStack(spacing: 0) {
                             tapZone { viewModel.decrement() }
+                                .overlay(alignment: .center) {
+                                    Triangle()
+                                        .stroke(.red, lineWidth: 2)
+                                        .frame(width: 20, height: 20)
+                                }
+                            Rectangle()
+                                .fill(.secondary.opacity(0.3))
+                                .frame(width: 1)
                             tapZone { viewModel.increment() }
+                                .overlay(alignment: .center) {
+                                    Triangle()
+                                        .stroke(.green, lineWidth: 2)
+                                        .frame(width: 20, height: 20)
+                                        .rotationEffect(.degrees(180))
+                                }
                         }
+                        // Horizontal divider
+                        Rectangle()
+                            .fill(.secondary.opacity(0.3))
+                            .frame(height: 1)
                         // Row 2: Save / Reset
                         HStack(spacing: 0) {
                             tapZone { viewModel.saveCurrentCount() }
+                                .overlay(alignment: .center) {
+                                    Rectangle()
+                                        .stroke(.blue, lineWidth: 2)
+                                        .frame(width: 20, height: 20)
+                                }
+                            Rectangle()
+                                .fill(.secondary.opacity(0.3))
+                                .frame(width: 1)
                             tapZone { viewModel.reset() }
+                                .overlay(alignment: .center) {
+                                    Xmark()
+                                        .stroke(.white, lineWidth: 2)
+                                        .frame(width: 20, height: 20)
+                                }
                         }
                     }
                     .frame(minHeight: geometry.size.height)
@@ -53,6 +84,18 @@ struct ContentView: View {
                             }
                         }
                         .padding(.vertical, 4)
+
+                        // ── Clear all button ──
+                        Circle()
+                            .stroke(.red, lineWidth: 2)
+                            .frame(width: 20, height: 20)
+                            .contentShape(Circle())
+                            .onTapGesture {
+                                hapticTrigger.toggle()
+                                viewModel.clearAllSavedCounts()
+                            }
+                            .sensoryFeedback(.impact, trigger: hapticTrigger)
+                            .padding(.vertical, 8)
                     }
                 }
             }
@@ -61,10 +104,40 @@ struct ContentView: View {
         .ignoresSafeArea()
     }
 
+    @State private var hapticTrigger = false
+
     private func tapZone(action: @escaping () -> Void) -> some View {
         Color.clear
             .contentShape(Rectangle())
-            .onTapGesture(perform: action)
+            .onTapGesture {
+                hapticTrigger.toggle()
+                action()
+            }
+            .sensoryFeedback(.impact, trigger: hapticTrigger)
+    }
+}
+
+// MARK: - Shapes
+
+struct Triangle: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.move(to: CGPoint(x: rect.midX, y: rect.maxY))
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.minY))
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+            path.closeSubpath()
+        }
+    }
+}
+
+struct Xmark: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+            path.move(to: CGPoint(x: rect.maxX, y: rect.minY))
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        }
     }
 }
 

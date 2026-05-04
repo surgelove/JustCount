@@ -22,4 +22,8 @@ final class CounterViewModel {
         guard count != 0 else { return }
         savedCounts.append(count)
     }
+
+    func clearAllSavedCounts() {
+        savedCounts.removeAll()
+    }
 }

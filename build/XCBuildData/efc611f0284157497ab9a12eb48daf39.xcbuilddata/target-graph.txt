@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'JustCount Watch App' in project 'JustCount' (no dependencies)

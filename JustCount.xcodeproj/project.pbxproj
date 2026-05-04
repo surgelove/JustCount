@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0378A31618929DFF3CD72C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7536554C32123511ABB0F7 /* ContentView.swift */; };
+		05661653086B2CBEA90BD8E9 /* JustCount Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		41A08D5E2F1C539FBC5C830D /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */; };
 		9FEA3C91AC245EE5AB4E5E4B /* JustCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */; };
 		D07CE36739E3D94960883C37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A500EA73102106A994830 /* ContentView.swift */; };
@@ -16,6 +17,30 @@
 		E79E769A8B7120E5D4CD62E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */; };
 		F0AF6650DA81FD9D0D923523 /* JustCountWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D981CEAED48F84701CBFA2C /* JustCountWatchApp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD4260FE6C1FD10A23F03DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264A125767E06904F069D76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55E5D5C45AE077425B8B1CB;
+			remoteInfo = "JustCount Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EF93B85DB5EB300235BEF49 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				05661653086B2CBEA90BD8E9 /* JustCount Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		26FF75B6BBE4CF28F4530BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -27,7 +52,7 @@
 		85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 		8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
 		8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F2C0D45B9B3238F4736127 /* JustCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F2C0D45B9B3238F4736127 /* JustCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,10 +133,12 @@
 			buildPhases = (
 				C7612F644DF40FFDCD726EB0 /* Sources */,
 				E5DCE337B31E18B84D0444E6 /* Resources */,
+				4EF93B85DB5EB300235BEF49 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				896C9B72CAC9B4BC2756489F /* PBXTargetDependency */,
 			);
 			name = JustCount;
 			packageProductDependencies = (
@@ -130,11 +157,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					A55E5D5C45AE077425B8B1CB = {
-						DevelopmentTeam = 65U37J59CY;
 						ProvisioningStyle = Automatic;
 					};
 					B7C06FD8ABA3699E2DFF9384 = {
-						DevelopmentTeam = 65U37J59CY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -201,14 +226,21 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		896C9B72CAC9B4BC2756489F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55E5D5C45AE077425B8B1CB /* JustCount Watch App */;
+			targetProxy = 1DD4260FE6C1FD10A23F03DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		0192BEFA13A3F370FD3A5DDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65U37J59CY;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = JustCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -224,8 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65U37J59CY;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;
 				SDKROOT = watchos;
@@ -239,8 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65U37J59CY;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = JustCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -285,8 +315,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 65U37J59CY;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -348,8 +380,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 65U37J59CY;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -375,8 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65U37J59CY;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;
 				SDKROOT = watchos;

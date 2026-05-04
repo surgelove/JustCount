@@ -9,6 +9,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: "65U37J59CY"
+    CODE_SIGN_STYLE: Automatic
 
 targets:
   JustCount:
@@ -22,8 +24,9 @@ targets:
         INFOPLIST_FILE: JustCount/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        DEVELOPMENT_TEAM: "65U37J59CY"
-        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - target: JustCount Watch App
+        embed: true
     info:
       path: JustCount/Info.plist
       properties:
@@ -42,8 +45,6 @@ targets:
         INFOPLIST_FILE: JustCount Watch App/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app.watchapp
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        CODE_SIGN_STYLE: Automatic
-        DEVELOPMENT_TEAM: "65U37J59CY"
     info:
       path: JustCount Watch App/Info.plist
       properties:
