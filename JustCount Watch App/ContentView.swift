@@ -4,77 +4,66 @@ struct ContentView: View {
     @State private var viewModel = CounterViewModel()
 
     var body: some View {
-        ScrollView {
-            VStack(spacing: 12) {
-                // Counter display
-                Text("\(viewModel.count)")
-                    .font(.system(size: 60, weight: .bold))
-                    .contentTransition(.numericText())
-                    .animation(.snappy, value: viewModel.count)
-                    .focusable(false)
+        GeometryReader { geometry in
+            let w = geometry.size.width
+            let countSize = w * 0.26
 
-                // Count buttons
-                HStack(spacing: 16) {
-                    Button {
-                        viewModel.decrement()
-                    } label: {
-                        Image(systemName: "minus.circle.fill")
-                            .font(.system(size: 40))
-                            .symbolRenderingMode(.hierarchical)
-                            .tint(.red)
-                    }
-                    .buttonStyle(.plain)
+            ScrollView {
+                VStack(spacing: 0) {
+                    // ── Main screen: count + 4 quadrants ──
+                    VStack(spacing: 0) {
+                        // Count
+                        Text("\(viewModel.count)")
+                            .font(.system(size: countSize, weight: .bold))
+                            .contentTransition(.numericText())
+                            .animation(.snappy, value: viewModel.count)
+                            .frame(maxWidth: .infinity)
 
-                    Button {
-                        viewModel.increment()
-                    } label: {
-                        Image(systemName: "plus.circle.fill")
-                            .font(.system(size: 40))
-                            .symbolRenderingMode(.hierarchical)
-                            .tint(.green)
-                    }
-                    .buttonStyle(.plain)
-                }
-
-                // Action buttons
-                VStack(spacing: 8) {
-                    Button("Reset") {
-                        viewModel.reset()
-                    }
-                    .buttonStyle(.bordered)
-                    .tint(.gray)
-
-                    Button("Save") {
-                        viewModel.saveCurrentCount()
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.blue)
-                }
-
-                // Saved counts list
-                if !viewModel.savedCounts.isEmpty {
-                    VStack(alignment: .leading) {
-                        Text("Saved Counts")
-                            .font(.headline)
-                            .padding(.top, 4)
-
-                        ForEach(Array(viewModel.savedCounts.enumerated()), id: \.offset) { index, value in
-                            HStack {
-                                Text("#\(index + 1)")
-                                    .foregroundStyle(.secondary)
-                                    .font(.caption)
-                                Spacer()
-                                Text("\(value)")
-                                    .font(.body.monospacedDigit().bold())
-                            }
-                            .padding(.vertical, 2)
+                        // Row 1: − / +
+                        HStack(spacing: 0) {
+                            tapZone { viewModel.decrement() }
+                            tapZone { viewModel.increment() }
                         }
+                        // Row 2: Save / Reset
+                        HStack(spacing: 0) {
+                            tapZone { viewModel.saveCurrentCount() }
+                            tapZone { viewModel.reset() }
+                        }
+                    }
+                    .frame(minHeight: geometry.size.height)
+
+                    // ── Saved counts (below fold) ──
+                    if !viewModel.savedCounts.isEmpty {
+                        Divider()
+                            .padding(.horizontal, 8)
+
+                        LazyVStack(spacing: 1) {
+                            ForEach(Array(viewModel.savedCounts.enumerated()), id: \.offset) { index, value in
+                                HStack {
+                                    Text("#\(index + 1)")
+                                        .foregroundStyle(.secondary)
+                                        .font(.system(size: 14))
+                                    Spacer()
+                                    Text("\(value)")
+                                        .font(.system(size: 18, weight: .bold).monospacedDigit())
+                                }
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 4)
+                            }
+                        }
+                        .padding(.vertical, 4)
                     }
                 }
             }
-            .padding()
+            .scrollIndicators(.hidden)
         }
-        .navigationTitle("JustCount")
+        .ignoresSafeArea()
+    }
+
+    private func tapZone(action: @escaping () -> Void) -> some View {
+        Color.clear
+            .contentShape(Rectangle())
+            .onTapGesture(perform: action)
     }
 }
 

@@ -227,7 +227,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65U37J59CY;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -378,7 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65U37J59CY;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;

@@ -40,7 +40,7 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: JustCount Watch App/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.watchapp
+        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app.watchapp
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: "65U37J59CY"
@@ -48,4 +48,4 @@ targets:
       path: JustCount Watch App/Info.plist
       properties:
         WKCompanionAppBundleIdentifier: com.justcount.app
-        WKWatchKitApp: true
+        WKApplication: true
