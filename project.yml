@@ -1,0 +1,51 @@
+name: JustCount
+options:
+  bundleIdPrefix: com.justcount
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+
+targets:
+  JustCount:
+    type: application
+    platform: iOS
+    sources:
+      - path: JustCount
+      - path: Shared
+    settings:
+      base:
+        INFOPLIST_FILE: JustCount/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: "65U37J59CY"
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: JustCount/Info.plist
+      properties:
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UILaunchScreen: {}
+
+  JustCount Watch App:
+    type: application
+    platform: watchOS
+    sources:
+      - path: JustCount Watch App
+      - path: Shared
+    settings:
+      base:
+        INFOPLIST_FILE: JustCount Watch App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.watchapp
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: "65U37J59CY"
+    info:
+      path: JustCount Watch App/Info.plist
+      properties:
+        WKCompanionAppBundleIdentifier: com.justcount.app
+        WKWatchKitApp: true

@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0378A31618929DFF3CD72C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7536554C32123511ABB0F7 /* ContentView.swift */; };
+		41A08D5E2F1C539FBC5C830D /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */; };
+		9FEA3C91AC245EE5AB4E5E4B /* JustCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */; };
+		D07CE36739E3D94960883C37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A500EA73102106A994830 /* ContentView.swift */; };
+		E0BC4F0D90FB56EBFD2095A8 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */; };
+		E0EE6442C5E937600A3DB228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE4D6087B9EBBA324CB6724 /* Assets.xcassets */; };
+		E79E769A8B7120E5D4CD62E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */; };
+		F0AF6650DA81FD9D0D923523 /* JustCountWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D981CEAED48F84701CBFA2C /* JustCountWatchApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26FF75B6BBE4CF28F4530BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AE4D6087B9EBBA324CB6724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C7536554C32123511ABB0F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D981CEAED48F84701CBFA2C /* JustCountWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountWatchApp.swift; sourceTree = "<group>"; };
+		525A500EA73102106A994830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69103B383F8AC040D8A9F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
+		8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F2C0D45B9B3238F4736127 /* JustCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		31DF7BC0C9F7624788FDB1DF /* JustCount */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */,
+				4C7536554C32123511ABB0F7 /* ContentView.swift */,
+				69103B383F8AC040D8A9F123 /* Info.plist */,
+				8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */,
+			);
+			path = JustCount;
+			sourceTree = "<group>";
+		};
+		87AA4FFB3B44BBBC873D5D4E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CCCAACA9F0B24EB15278AA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */,
+				B5F2C0D45B9B3238F4736127 /* JustCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D139099C849D97DB080AD553 = {
+			isa = PBXGroup;
+			children = (
+				31DF7BC0C9F7624788FDB1DF /* JustCount */,
+				E4A3CFE2D81D939A0B27B333 /* JustCount Watch App */,
+				87AA4FFB3B44BBBC873D5D4E /* Shared */,
+				CCCAACA9F0B24EB15278AA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A3CFE2D81D939A0B27B333 /* JustCount Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2AE4D6087B9EBBA324CB6724 /* Assets.xcassets */,
+				525A500EA73102106A994830 /* ContentView.swift */,
+				26FF75B6BBE4CF28F4530BC3 /* Info.plist */,
+				4D981CEAED48F84701CBFA2C /* JustCountWatchApp.swift */,
+			);
+			path = "JustCount Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55E5D5C45AE077425B8B1CB /* JustCount Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE6CE7500E24E508DEE5CFD /* Build configuration list for PBXNativeTarget "JustCount Watch App" */;
+			buildPhases = (
+				2AAEF16EB21ACC76DF0B5E7C /* Sources */,
+				577DA316308D41A1412D6A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JustCount Watch App";
+			packageProductDependencies = (
+			);
+			productName = "JustCount Watch App";
+			productReference = 8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7C06FD8ABA3699E2DFF9384 /* JustCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0665E05FAC760CF1EDD0D3 /* Build configuration list for PBXNativeTarget "JustCount" */;
+			buildPhases = (
+				C7612F644DF40FFDCD726EB0 /* Sources */,
+				E5DCE337B31E18B84D0444E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustCount;
+			packageProductDependencies = (
+			);
+			productName = JustCount;
+			productReference = B5F2C0D45B9B3238F4736127 /* JustCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264A125767E06904F069D76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A55E5D5C45AE077425B8B1CB = {
+						DevelopmentTeam = 65U37J59CY;
+						ProvisioningStyle = Automatic;
+					};
+					B7C06FD8ABA3699E2DFF9384 = {
+						DevelopmentTeam = 65U37J59CY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA5A7DCD6A37FC930E863A9F /* Build configuration list for PBXProject "JustCount" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D139099C849D97DB080AD553;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCCAACA9F0B24EB15278AA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C06FD8ABA3699E2DFF9384 /* JustCount */,
+				A55E5D5C45AE077425B8B1CB /* JustCount Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577DA316308D41A1412D6A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EE6442C5E937600A3DB228 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DCE337B31E18B84D0444E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E769A8B7120E5D4CD62E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAEF16EB21ACC76DF0B5E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07CE36739E3D94960883C37 /* ContentView.swift in Sources */,
+				41A08D5E2F1C539FBC5C830D /* CounterViewModel.swift in Sources */,
+				F0AF6650DA81FD9D0D923523 /* JustCountWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7612F644DF40FFDCD726EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0378A31618929DFF3CD72C1C /* ContentView.swift in Sources */,
+				E0BC4F0D90FB56EBFD2095A8 /* CounterViewModel.swift in Sources */,
+				9FEA3C91AC245EE5AB4E5E4B /* JustCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0192BEFA13A3F370FD3A5DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				INFOPLIST_FILE = JustCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B499475698C94B0166C24C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		6905D27F32AFBBC999C380C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				INFOPLIST_FILE = JustCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96F44B3C4262C89D1BA875C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		B8EED48DD854658A71198239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		E9B2D9805B44771343B5C426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0665E05FAC760CF1EDD0D3 /* Build configuration list for PBXNativeTarget "JustCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6905D27F32AFBBC999C380C7 /* Debug */,
+				0192BEFA13A3F370FD3A5DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CE6CE7500E24E508DEE5CFD /* Build configuration list for PBXNativeTarget "JustCount Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2D9805B44771343B5C426 /* Debug */,
+				5B499475698C94B0166C24C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA5A7DCD6A37FC930E863A9F /* Build configuration list for PBXProject "JustCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F44B3C4262C89D1BA875C7 /* Debug */,
+				B8EED48DD854658A71198239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264A125767E06904F069D76F /* Project object */;
+}

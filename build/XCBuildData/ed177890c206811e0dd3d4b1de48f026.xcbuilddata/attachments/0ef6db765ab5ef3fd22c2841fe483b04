@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCount Watch App-primary.dia",
+    "emit-module-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCount Watch App-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCount Watch App-primary-emit-module.dia",
+    "pch" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCount Watch App-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCount Watch App-primary.swiftdeps"
+  },
+  "/Users/code/Developer/JustCount/JustCount Watch App/ContentView.swift" : {
+    "const-values" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/code/Developer/JustCount/JustCount Watch App/JustCountWatchApp.swift" : {
+    "const-values" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.d",
+    "diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.dia",
+    "index-unit-output-path" : "/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.o",
+    "llvm-bc" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.bc",
+    "object" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.o",
+    "swift-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/JustCountWatchApp~partial.swiftmodule"
+  },
+  "/Users/code/Developer/JustCount/Shared/CounterViewModel.swift" : {
+    "const-values" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.swiftconstvalues",
+    "dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.d",
+    "diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.dia",
+    "index-unit-output-path" : "/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.o",
+    "llvm-bc" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.bc",
+    "object" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.o",
+    "swift-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel.swiftdeps",
+    "swiftmodule" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/CounterViewModel~partial.swiftmodule"
+  },
+  "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/code/Developer/JustCount/build/JustCount.build/Debug-watchos/JustCount Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
