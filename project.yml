@@ -3,8 +3,8 @@ options:
   bundleIdPrefix: com.justcount
   deploymentTarget:
     iOS: "17.0"
-    watchOS: "10.0"
-  xcodeVersion: "16.0"
+    watchOS: "11.0"
+  xcodeVersion: "26.0"
 
 settings:
   base:
