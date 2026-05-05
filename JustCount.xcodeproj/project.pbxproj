@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		0378A31618929DFF3CD72C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7536554C32123511ABB0F7 /* ContentView.swift */; };
 		05661653086B2CBEA90BD8E9 /* JustCount Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05D8E383B87278A0558CD210 /* iconjustcount.icon in Resources */ = {isa = PBXBuildFile; fileRef = AC6C0D3A9E0A70A78AA4A1B0 /* iconjustcount.icon */; };
 		41A08D5E2F1C539FBC5C830D /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */; };
 		9FEA3C91AC245EE5AB4E5E4B /* JustCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */; };
+		A2C94ED02EB7BBC09FB8B66E /* iconjustcount.icon in Resources */ = {isa = PBXBuildFile; fileRef = AC6C0D3A9E0A70A78AA4A1B0 /* iconjustcount.icon */; };
 		D07CE36739E3D94960883C37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A500EA73102106A994830 /* ContentView.swift */; };
 		E0BC4F0D90FB56EBFD2095A8 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */; };
 		E0EE6442C5E937600A3DB228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE4D6087B9EBBA324CB6724 /* Assets.xcassets */; };
@@ -52,6 +54,7 @@
 		85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 		8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
 		8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6C0D3A9E0A70A78AA4A1B0 /* iconjustcount.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = iconjustcount.icon; sourceTree = "<group>"; };
 		B5F2C0D45B9B3238F4736127 /* JustCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */,
+				AC6C0D3A9E0A70A78AA4A1B0 /* iconjustcount.icon */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -190,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EE6442C5E937600A3DB228 /* Assets.xcassets in Resources */,
+				05D8E383B87278A0558CD210 /* iconjustcount.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79E769A8B7120E5D4CD62E8 /* Assets.xcassets in Resources */,
+				A2C94ED02EB7BBC09FB8B66E /* iconjustcount.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +244,8 @@
 		0192BEFA13A3F370FD3A5DDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iconjustcount;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = JustCount/Info.plist;
@@ -248,14 +255,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5B499475698C94B0166C24C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iconjustcount;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;
@@ -268,7 +280,8 @@
 		6905D27F32AFBBC999C380C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iconjustcount;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = JustCount/Info.plist;
@@ -278,7 +291,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,7 +425,8 @@
 		E9B2D9805B44771343B5C426 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iconjustcount;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "JustCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app.watchapp;

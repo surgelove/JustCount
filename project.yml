@@ -23,7 +23,7 @@ targets:
       base:
         INFOPLIST_FILE: JustCount/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     dependencies:
       - target: JustCount Watch App
         embed: true
@@ -44,7 +44,7 @@ targets:
       base:
         INFOPLIST_FILE: JustCount Watch App/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app.watchapp
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     info:
       path: JustCount Watch App/Info.plist
       properties:

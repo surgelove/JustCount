@@ -84,6 +84,21 @@ struct ContentView: View {
                         }
                         .padding(.vertical, 8)
 
+                        // Sum
+                        HStack {
+                            Text("Sum")
+                                .foregroundStyle(.secondary)
+                                .font(.title3)
+                            Spacer()
+                            Text("\(viewModel.savedCounts.reduce(0, +))")
+                                .font(.title.monospacedDigit().bold())
+                        }
+                        .padding(.horizontal, 24)
+                        .padding(.vertical, 8)
+
+                        Divider()
+                            .padding(.horizontal, 24)
+
                         // Clear all button
                         Circle()
                             .stroke(.red, lineWidth: 3)
