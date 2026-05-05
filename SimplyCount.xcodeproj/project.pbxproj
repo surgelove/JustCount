@@ -253,7 +253,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjustcount.app;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjustcount.app.watchapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -285,7 +285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjustcount.app;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,7 +298,7 @@
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplyjustcount.app.watchapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;

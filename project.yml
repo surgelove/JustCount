@@ -1,6 +1,6 @@
 name: Simply Count
 options:
-  bundleIdPrefix: com.simplycount
+  bundleIdPrefix: com.simplyjustcount
   deploymentTarget:
     iOS: "17.0"
     watchOS: "11.0"
@@ -22,7 +22,7 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: JustCount/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.simplycount.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.simplyjustcount.app
         ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     dependencies:
       - target: Simply Count Watch App
@@ -43,10 +43,10 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: JustCount Watch App/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.simplycount.app.watchapp
+        PRODUCT_BUNDLE_IDENTIFIER: com.simplyjustcount.app.watchapp
         ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     info:
       path: JustCount Watch App/Info.plist
       properties:
-        WKCompanionAppBundleIdentifier: com.simplycount.app
+        WKCompanionAppBundleIdentifier: com.simplyjustcount.app
         WKApplication: true
