@@ -1,6 +1,6 @@
-name: JustCount
+name: Simply Count
 options:
-  bundleIdPrefix: com.justcount
+  bundleIdPrefix: com.simplycount
   deploymentTarget:
     iOS: "17.0"
     watchOS: "11.0"
@@ -13,7 +13,7 @@ settings:
     CODE_SIGN_STYLE: Automatic
 
 targets:
-  JustCount:
+  Simply Count:
     type: application
     platform: iOS
     sources:
@@ -22,10 +22,10 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: JustCount/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.simplycount.app
         ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     dependencies:
-      - target: JustCount Watch App
+      - target: Simply Count Watch App
         embed: true
     info:
       path: JustCount/Info.plist
@@ -34,7 +34,7 @@ targets:
           UIApplicationSupportsMultipleScenes: false
         UILaunchScreen: {}
 
-  JustCount Watch App:
+  Simply Count Watch App:
     type: application
     platform: watchOS
     sources:
@@ -43,10 +43,10 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: JustCount Watch App/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.justcount.app.watchapp
+        PRODUCT_BUNDLE_IDENTIFIER: com.simplycount.app.watchapp
         ASSETCATALOG_COMPILER_ICON_NAME: iconjustcount
     info:
       path: JustCount Watch App/Info.plist
       properties:
-        WKCompanionAppBundleIdentifier: com.justcount.app
+        WKCompanionAppBundleIdentifier: com.simplycount.app
         WKApplication: true

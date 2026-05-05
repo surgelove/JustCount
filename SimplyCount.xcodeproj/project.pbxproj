@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3AE823FEB8700770D11EF0 /* JustCountWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58D310CB5A00020945FDB95 /* JustCountWatchApp.swift */; };
+		28FE81B2FF2408F7A2125B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E79ABDA40FBC1E3B13C4C9 /* Assets.xcassets */; };
+		375EF295E40DCEF21A55DA6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B802E420C4F6525827EC6 /* ContentView.swift */; };
+		4653EC2C752D4C2A550B8D68 /* SimplyCount Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6992AA8BBCF4DBF2D73EE6A4 /* SimplyCount Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		735EC1CE28F68AADB4F66FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D547EB48DEFC1F796BA653 /* ContentView.swift */; };
+		8A81FBC5ABD996396D4161FF /* JustCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1FF965B27D6F61B79FD2 /* JustCountApp.swift */; };
+		96ACCFDB6A1153301F50EB45 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 7BC79834D3791EC647B17ED4 /* AppIcon.icon */; };
+		BBD40A640ADDE6AA592C9C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86259AFE793298252D48C78 /* Assets.xcassets */; };
+		DFBC1AA7526C2DBA4A9FDD9E /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A745FF678D1A39A92F9EA1 /* CounterViewModel.swift */; };
+		F9158F47A8B3FB51256DDA6B /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 7BC79834D3791EC647B17ED4 /* AppIcon.icon */; };
+		FA75669B86391860FDC379AE /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A745FF678D1A39A92F9EA1 /* CounterViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82A674AFED5A88A2DB9FA2B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10ED6FF2271998D23D8E6BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83792320837BD3CDDCC581A;
+			remoteInfo = "SimplyCount Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6303A801C2643BB6347A36B5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4653EC2C752D4C2A550B8D68 /* SimplyCount Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06E79ABDA40FBC1E3B13C4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B8ED88EEB94EA432553A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		268E384C90F49A0FE32F821E /* SimplyCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SimplyCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D547EB48DEFC1F796BA653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6992AA8BBCF4DBF2D73EE6A4 /* SimplyCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplyCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9C1FF965B27D6F61B79FD2 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
+		71C08A9D8E9FBD9300D4AABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7BC79834D3791EC647B17ED4 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		7F3B802E420C4F6525827EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E58D310CB5A00020945FDB95 /* JustCountWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountWatchApp.swift; sourceTree = "<group>"; };
+		E86259AFE793298252D48C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9A745FF678D1A39A92F9EA1 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0BB5DB14826060A1BD55DDF8 = {
+			isa = PBXGroup;
+			children = (
+				DBE957C1B0C7D2DBCF7B2A10 /* Shared */,
+				A13A27A10D73A912E04066A6 /* SimplyCount */,
+				17F210DD6DECB1CFA248FBCC /* SimplyCount Watch App */,
+				B80FFCAA18282CF41686A885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17F210DD6DECB1CFA248FBCC /* SimplyCount Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E86259AFE793298252D48C78 /* Assets.xcassets */,
+				54D547EB48DEFC1F796BA653 /* ContentView.swift */,
+				12B8ED88EEB94EA432553A60 /* Info.plist */,
+				E58D310CB5A00020945FDB95 /* JustCountWatchApp.swift */,
+			);
+			path = "SimplyCount Watch App";
+			sourceTree = "<group>";
+		};
+		A13A27A10D73A912E04066A6 /* SimplyCount */ = {
+			isa = PBXGroup;
+			children = (
+				06E79ABDA40FBC1E3B13C4C9 /* Assets.xcassets */,
+				7F3B802E420C4F6525827EC6 /* ContentView.swift */,
+				71C08A9D8E9FBD9300D4AABD /* Info.plist */,
+				6C9C1FF965B27D6F61B79FD2 /* JustCountApp.swift */,
+			);
+			path = SimplyCount;
+			sourceTree = "<group>";
+		};
+		B80FFCAA18282CF41686A885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6992AA8BBCF4DBF2D73EE6A4 /* SimplyCount Watch App.app */,
+				268E384C90F49A0FE32F821E /* SimplyCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE957C1B0C7D2DBCF7B2A10 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7BC79834D3791EC647B17ED4 /* AppIcon.icon */,
+				E9A745FF678D1A39A92F9EA1 /* CounterViewModel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E9FA6E67490CFE1417AD06 /* SimplyCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B6CA83E6613D4FF66A8E0 /* Build configuration list for PBXNativeTarget "SimplyCount" */;
+			buildPhases = (
+				F2A2EA6D9D585A59070EF739 /* Sources */,
+				909E210C344479487E608C45 /* Resources */,
+				6303A801C2643BB6347A36B5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFFE970FECB2CE58622366C /* PBXTargetDependency */,
+			);
+			name = SimplyCount;
+			packageProductDependencies = (
+			);
+			productName = SimplyCount;
+			productReference = 268E384C90F49A0FE32F821E /* SimplyCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83792320837BD3CDDCC581A /* SimplyCount Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C1AA2C7591A10DA8379726 /* Build configuration list for PBXNativeTarget "SimplyCount Watch App" */;
+			buildPhases = (
+				A731129AE378313A3FE35032 /* Sources */,
+				A5C4E2E54E38ABBBBB2784F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimplyCount Watch App";
+			packageProductDependencies = (
+			);
+			productName = "SimplyCount Watch App";
+			productReference = 6992AA8BBCF4DBF2D73EE6A4 /* SimplyCount Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ED6FF2271998D23D8E6BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2641;
+				TargetAttributes = {
+					78E9FA6E67490CFE1417AD06 = {
+						DevelopmentTeam = 65U37J59CY;
+						ProvisioningStyle = Automatic;
+					};
+					F83792320837BD3CDDCC581A = {
+						DevelopmentTeam = 65U37J59CY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1DAF72C6682BCAFA1EFFE5C /* Build configuration list for PBXProject "SimplyCount" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0BB5DB14826060A1BD55DDF8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B80FFCAA18282CF41686A885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E9FA6E67490CFE1417AD06 /* SimplyCount */,
+				F83792320837BD3CDDCC581A /* SimplyCount Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909E210C344479487E608C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACCFDB6A1153301F50EB45 /* AppIcon.icon in Resources */,
+				28FE81B2FF2408F7A2125B5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C4E2E54E38ABBBBB2784F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9158F47A8B3FB51256DDA6B /* AppIcon.icon in Resources */,
+				BBD40A640ADDE6AA592C9C19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A731129AE378313A3FE35032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735EC1CE28F68AADB4F66FFE /* ContentView.swift in Sources */,
+				FA75669B86391860FDC379AE /* CounterViewModel.swift in Sources */,
+				1B3AE823FEB8700770D11EF0 /* JustCountWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A2EA6D9D585A59070EF739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375EF295E40DCEF21A55DA6F /* ContentView.swift in Sources */,
+				DFBC1AA7526C2DBA4A9FDD9E /* CounterViewModel.swift in Sources */,
+				8A81FBC5ABD996396D4161FF /* JustCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFFE970FECB2CE58622366C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83792320837BD3CDDCC581A /* SimplyCount Watch App */;
+			targetProxy = 82A674AFED5A88A2DB9FA2B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C0FBEED1D86A03DC86B940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimplyCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39A32798C76C06E5C8F496B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		60A78DDA8DA358BF4D37BE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimplyCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DCF7C8B611C37B5D0F4FCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		D331842F04A45DAB16C812D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		D5DA5C54846453C7DC32ADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 65U37J59CY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C1AA2C7591A10DA8379726 /* Build configuration list for PBXNativeTarget "SimplyCount Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCF7C8B611C37B5D0F4FCD9 /* Debug */,
+				39A32798C76C06E5C8F496B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		461B6CA83E6613D4FF66A8E0 /* Build configuration list for PBXNativeTarget "SimplyCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A78DDA8DA358BF4D37BE9F /* Debug */,
+				03C0FBEED1D86A03DC86B940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1DAF72C6682BCAFA1EFFE5C /* Build configuration list for PBXProject "SimplyCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA5C54846453C7DC32ADB8 /* Debug */,
+				D331842F04A45DAB16C812D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10ED6FF2271998D23D8E6BCE /* Project object */;
+}

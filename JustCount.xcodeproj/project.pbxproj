@@ -54,7 +54,7 @@
 		85E8FCBB67196D99FC37DFE4 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 		8B14CC238485DDDBEC39ADB0 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
 		8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F2C0D45B9B3238F4736127 /* JustCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F2C0D45B9B3238F4736127 /* Simply Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD54E69FCDFCD69B0DF7B286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD08BC4D2FAA035E0061A0FD /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8E45718C583BCD24FA30C5F5 /* JustCount Watch App.app */,
-				B5F2C0D45B9B3238F4736127 /* JustCount.app */,
+				B5F2C0D45B9B3238F4736127 /* Simply Count.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			packageProductDependencies = (
 			);
 			productName = JustCount;
-			productReference = B5F2C0D45B9B3238F4736127 /* JustCount.app */;
+			productReference = B5F2C0D45B9B3238F4736127 /* Simply Count.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -255,6 +255,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
+				PRODUCT_NAME = "Simply Count";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -293,6 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justcount.app;
+				PRODUCT_NAME = "Simply Count";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -1,4 +1,4 @@
-# JustCount
+# Simply Count
 
 A simple, elegant counter app for **iPhone, iPad, and Apple Watch** — built with SwiftUI.
 
@@ -37,7 +37,7 @@ A simple, elegant counter app for **iPhone, iPad, and Apple Watch** — built wi
 ## Project Structure
 
 ```
-JustCount/
+Simply Count/
 ├── project.yml                    # XcodeGen project specification
 ├── README.md
 ├── JustCount/                     # iOS (iPhone/iPad) app
@@ -106,10 +106,10 @@ xcodegen generate
 
 ## Building
 
-Open the generated `JustCount.xcodeproj` in Xcode and select the desired target:
+Open the generated `Simply Count.xcodeproj` in Xcode and select the desired target:
 
-- **JustCount** — iOS (iPhone / iPad)
-- **JustCount Watch App** — Apple Watch (requires a paired iPhone for installation)
+- **Simply Count** — iOS (iPhone / iPad)
+- **Simply Count Watch App** — Apple Watch (requires a paired iPhone for installation)
 
 ## App Icon
 

@@ -18,9 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>WKApplication</key>
-	<true/>
-	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.justcount.app</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
 </dict>
 </plist>
