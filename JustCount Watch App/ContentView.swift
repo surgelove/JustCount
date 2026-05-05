@@ -57,7 +57,7 @@ struct ContentView: View {
                             tapZone { viewModel.reset() }
                                 .overlay(alignment: .center) {
                                     Xmark()
-                                        .stroke(.white, lineWidth: 2)
+                                        .stroke(.primary, lineWidth: 2)
                                         .frame(width: 20, height: 20)
                                 }
                         }
@@ -85,9 +85,12 @@ struct ContentView: View {
                         }
                         .padding(.vertical, 4)
 
-                        // ── Sum ──
+                        Divider()
+                            .padding(.horizontal, 8)
+
+                        // ── Total ──
                         HStack {
-                            Text("Sum")
+                            Text("Total")
                                 .foregroundStyle(.secondary)
                                 .font(.system(size: 14))
                             Spacer()
@@ -101,10 +104,10 @@ struct ContentView: View {
                             .padding(.horizontal, 8)
 
                         // ── Clear all button ──
-                        Circle()
-                            .stroke(.red, lineWidth: 2)
+                        Xmark()
+                            .stroke(.primary, lineWidth: 2)
                             .frame(width: 20, height: 20)
-                            .contentShape(Circle())
+                            .contentShape(Rectangle())
                             .onTapGesture {
                                 hapticTrigger.toggle()
                                 viewModel.clearAllSavedCounts()

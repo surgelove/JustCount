@@ -24,6 +24,10 @@ final class CounterViewModel {
         count = 0
     }
 
+    func removeSavedCount(at index: Int) {
+        savedCounts.remove(at: index)
+    }
+
     func clearAllSavedCounts() {
         savedCounts.removeAll()
     }

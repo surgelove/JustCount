@@ -44,7 +44,7 @@ struct ContentView: View {
                             .frame(height: 1)
                         // Row 2: Save / Reset
                         HStack(spacing: 0) {
-                            tapZone { viewModel.saveCurrentCount() }
+                            strongTapZone { viewModel.saveCurrentCount() }
                                 .overlay(alignment: .center) {
                                     Rectangle()
                                         .stroke(.blue, lineWidth: 3)
@@ -53,10 +53,10 @@ struct ContentView: View {
                             Rectangle()
                                 .fill(.secondary.opacity(0.2))
                                 .frame(width: 1)
-                            tapZone { viewModel.reset() }
+                            strongTapZone { viewModel.reset() }
                                 .overlay(alignment: .center) {
                                     Xmark()
-                                        .stroke(.white, lineWidth: 3)
+                                        .stroke(.primary, lineWidth: 3)
                                         .frame(width: 32, height: 32)
                                 }
                         }
@@ -77,6 +77,14 @@ struct ContentView: View {
                                     Spacer()
                                     Text("\(value)")
                                         .font(.title.monospacedDigit().bold())
+                                    Xmark()
+                                        .stroke(.primary, lineWidth: 2)
+                                        .frame(width: 16, height: 16)
+                                        .contentShape(Rectangle())
+                                        .onTapGesture {
+                                            viewModel.removeSavedCount(at: index)
+                                        }
+                                        .padding(.leading, 12)
                                 }
                                 .padding(.horizontal, 24)
                                 .padding(.vertical, 8)
@@ -84,9 +92,12 @@ struct ContentView: View {
                         }
                         .padding(.vertical, 8)
 
-                        // Sum
+                        Divider()
+                            .padding(.horizontal, 24)
+
+                        // Total
                         HStack {
-                            Text("Sum")
+                            Text("Total")
                                 .foregroundStyle(.secondary)
                                 .font(.title3)
                             Spacer()
@@ -100,10 +111,10 @@ struct ContentView: View {
                             .padding(.horizontal, 24)
 
                         // Clear all button
-                        Circle()
+                        Xmark()
                             .stroke(.red, lineWidth: 3)
                             .frame(width: 32, height: 32)
-                            .contentShape(Circle())
+                            .contentShape(Rectangle())
                             .onTapGesture {
                                 hapticTrigger.toggle()
                                 viewModel.clearAllSavedCounts()
@@ -116,8 +127,9 @@ struct ContentView: View {
             .scrollIndicators(.hidden)
         }
         .ignoresSafeArea(edges: .bottom)
-        .preferredColorScheme(.dark)
     }
+
+    @State private var strongHapticTrigger = false
 
     private func tapZone(action: @escaping () -> Void) -> some View {
         Color.clear
@@ -127,6 +139,16 @@ struct ContentView: View {
                 action()
             }
             .sensoryFeedback(.impact, trigger: hapticTrigger)
+    }
+
+    private func strongTapZone(action: @escaping () -> Void) -> some View {
+        Color.clear
+            .contentShape(Rectangle())
+            .onTapGesture {
+                strongHapticTrigger.toggle()
+                action()
+            }
+            .sensoryFeedback(.impact(flexibility: .solid, intensity: 1.0), trigger: strongHapticTrigger)
     }
 }
 
