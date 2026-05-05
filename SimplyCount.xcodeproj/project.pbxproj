@@ -47,7 +47,7 @@
 /* Begin PBXFileReference section */
 		06E79ABDA40FBC1E3B13C4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B8ED88EEB94EA432553A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		268E384C90F49A0FE32F821E /* SimplyCount.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SimplyCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268E384C90F49A0FE32F821E /* SimplyCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D547EB48DEFC1F796BA653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6992AA8BBCF4DBF2D73EE6A4 /* SimplyCount Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplyCount Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C1FF965B27D6F61B79FD2 /* JustCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCountApp.swift; sourceTree = "<group>"; };
@@ -161,11 +161,9 @@
 				LastUpgradeCheck = 2641;
 				TargetAttributes = {
 					78E9FA6E67490CFE1417AD06 = {
-						DevelopmentTeam = 65U37J59CY;
 						ProvisioningStyle = Automatic;
 					};
 					F83792320837BD3CDDCC581A = {
-						DevelopmentTeam = 65U37J59CY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -249,6 +247,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = SimplyCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -265,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
 				SDKROOT = watchos;
@@ -279,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = SimplyCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ICON_NAME = iconjustcount;
+				DEVELOPMENT_TEAM = B89G8SX9MP;
 				INFOPLIST_FILE = "SimplyCount Watch App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simplycount.app.watchapp;
 				SDKROOT = watchos;

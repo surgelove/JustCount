@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7C06FD8ABA3699E2DFF9384"
-               BuildableName = "JustCount.app"
+               BuildableName = "Simply Count.app"
                BlueprintName = "JustCount"
                ReferencedContainer = "container:JustCount.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7C06FD8ABA3699E2DFF9384"
-            BuildableName = "JustCount.app"
+            BuildableName = "Simply Count.app"
             BlueprintName = "JustCount"
             ReferencedContainer = "container:JustCount.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7C06FD8ABA3699E2DFF9384"
-            BuildableName = "JustCount.app"
+            BuildableName = "Simply Count.app"
             BlueprintName = "JustCount"
             ReferencedContainer = "container:JustCount.xcodeproj">
          </BuildableReference>
