@@ -35,7 +35,7 @@ If our privacy practices change in the future, this policy will be updated accor
 
 If you have any questions or concerns about this Privacy Policy, please contact us at:
 
-**Serge Lamoureux, nlyitx inc.**
+**Serge Lamoureux, nlytix inc.**
 **[sl@nlytix.com]**
 
 ---
